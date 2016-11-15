@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+        <EditText  
+   					android:id="@+id/logcat"
+					android:inputType="textMultiLine" 
+    	    		android:gravity="top"
+				    android:layout_width="fill_parent"
+				    android:text=""
+				    android:layout_height="605dip"
+		    		android:textSize="20dip"
+		    		android:scrollbars="vertical"
+		    		android:singleLine="false"
+		    		android:focusable="false"
+	    />	
+	    
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="horizontal"          
+            >
+           
+            <Button 
+                android:layout_width="100dip"
+                android:layout_height="100dip"
+                android:layout_weight="1"
+                android:id="@+id/card_sn"
+                android:text="Rfid"
+                />
+            <Button 
+                android:layout_width="100dip"
+                android:layout_height="100dip"
+                android:layout_weight="1"
+                android:id="@+id/scan"
+                android:text="Scan"
+                />
+            <Button 
+                android:layout_width="100dip"
+                android:layout_height="100dip"
+                android:layout_weight="1"
+                android:id="@+id/setting"
+                android:text="Setting"
+                />
+            
+            
+        </LinearLayout>
+    <!--      <Button 
+                android:layout_width="100dip"
+                android:layout_height="100dip"
+                android:layout_weight="1"
+                android:id="@+id/read"
+                android:text="读块"
+                />
+            <Button 
+                android:layout_width="100dip"
+                android:layout_height="100dip"
+                android:layout_weight="1"
+                android:id="@+id/write"
+                android:text="写块"
+                /> -->
+
+</LinearLayout>
